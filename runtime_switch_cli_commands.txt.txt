@@ -1,0 +1,12 @@
+# ASID switch CLI commands for BMv2
+
+table_add feature_table compute_features => 0
+
+table_add feature_table 
+forward 0x01 => 1
+
+set_queue_depth 512
+
+mirroring_add 1 0
+
+log_level info

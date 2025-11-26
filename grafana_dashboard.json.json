@@ -1,0 +1,22 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "ASID Framework Dashboard",
+    "timezone": "browser",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Mitigation Actions",
+        "targets": [{"expr": "count_over_time(mitigations[5m])"}],
+        "gridPos": {"x": 0, "y": 0, "w": 12, "h": 8}
+      },
+      {
+        "type": "graph",
+        "title": "Detection Accuracy",
+        "targets": [{"expr": "avg_over_time(detection_accuracy[5m])"}],
+        "gridPos": {"x": 12, "y": 0, "w": 12, "h": 8}
+      }
+    ],
+    "schemaVersion": 22
+  }
+}

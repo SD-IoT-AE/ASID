@@ -1,0 +1,11 @@
+{
+  "p4info": "dataplane/runtime/asid_pipeline.bmv2.json",
+  "bmv2_json": "dataplane/runtime/asid_pipeline.bmv2.json",
+  "device_id": 1,
+  "election_id": {"low": 1, "high": 0},
+  "grpc_addr": "127.0.0.1:50051",
+  "forwarding_pipeline_config": {
+    "cookie": {"cookie": 1},
+    "p4info": "dataplane/runtime/asid_pipeline.bmv2.json"
+  }
+}

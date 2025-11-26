@@ -1,0 +1,6 @@
+{
+  "controller_id": "ONOS-C2",
+  "rest_url": "http://127.0.0.1:8181/onos/v1/flows",
+  "auth": ["onos", "rocks"],
+  "dmcm_peer": "http://127.0.0.1:5005"
+}

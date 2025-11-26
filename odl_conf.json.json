@@ -1,0 +1,6 @@
+{
+  "controller_id": "ODL-C3",
+  "rest_url": "http://127.0.0.1:8181/restconf/config/",
+  "auth": ["admin", "admin"],
+  "dmcm_peer": "http://127.0.0.1:5005"
+}

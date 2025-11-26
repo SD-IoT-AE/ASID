@@ -1,0 +1,13 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: 'asid_dmcm'
+    static_configs:
+      - targets: ['localhost:5005']
+  - job_name: 'asid_detection'
+    static_configs:
+      - targets: ['localhost:5050']
+  - job_name: 'asid_ryu'
+    static_configs:
+      - targets: ['localhost:6633']

@@ -1,0 +1,2 @@
+{"flow_src": "10.0.1.1", "flow_dst": "10.0.1.2", "timestamp": 1732650251.8312, "action": "MITIGATE"}
+{"flow_src": "10.0.2.3", "flow_dst": "10.0.2.4", "timestamp": 1732650262.9921, "action": "MITIGATE"}

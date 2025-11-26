@@ -1,0 +1,22 @@
+{
+  "controllers": [
+    {
+      "id": "C0",
+      "role": "central",
+      "ip": "127.0.0.1",
+      "port": 6653
+    },
+    {
+      "id": "C1",
+      "role": "domain",
+      "ip": "127.0.0.1",
+      "port": 6654
+    },
+    {
+      "id": "C2",
+      "role": "domain",
+      "ip": "127.0.0.1",
+      "port": 6655
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+controller:
+  id: "RYU-C1"
+  listen_port: 6633
+  mitigation_endpoint: "http://127.0.0.1:5005/api/mitigation"
+  dmcm_peer: "http://127.0.0.1:5007"
+logging:
+  level: INFO
+  file: "ryu_controller.log"
